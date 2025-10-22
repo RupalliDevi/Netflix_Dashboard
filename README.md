@@ -3,41 +3,45 @@ A Power BI dashboard analyzing Netflix content trends, genres, and ratings using
 # 🎬 Netflix Analytics Power BI Dashboard
 
 ## 📖 Overview
-This project is a **Power BI dashboard** analyzing Netflix's global content library using the *Netflix Movies and TV Shows dataset* from Kaggle.  
-It provides insights into the **distribution of content types**, **country contributions**, and **content growth trends** — styled with a dark Netflix-inspired theme.  
+This project presents an interactive **Power BI dashboard** that analyzes Netflix’s global content catalog.  
+Using the *Netflix Movies and TV Shows dataset* from Kaggle, it visualizes insights about **content distribution**, **type mix**, and **country contributions** — styled with a signature Netflix black and red theme.
 
 ---
 
-## 📊 Dashboard Pages
-
-### 🟥 Page 1: Netflix Overview
+## 🟥 Page 1: Netflix Overview Dashboard
 ![Netflix Overview Dashboard]
 
-**Highlights:**
-- **Total Movies, TV Shows, and Titles** – KPIs showing Netflix’s expansive catalog.  
-- **Top Contributing Countries** – Visualized with line and donut charts.  
-- **Title Distribution by Type** – Comparison of Movies vs TV Shows.  
-- **Dynamic Filters** – For year and type, enabling interactive exploration.  
+### 🔍 Key Highlights:
+- **KPI Cards**
+  - 🎞️ **Sum of Movie Count:** 25K  
+  - 📺 **Sum of TV Show Count:** 11K  
+  - 🎬 **Sum of Titles:** 9K  
+- **Line Chart:** *Sum of Titles by Country*  
+  - Highlights how the **United States**, **India**, and **United Kingdom** dominate content creation.
+- **Donut Chart:** *Title Count by Country and Type*  
+  - Shows proportional contribution by region and type.
+- **Netflix Branding:** Styled with a dark background, bold red titles, and minimalist layout for a premium, cinematic feel.
 
-🧠 *Key Insight:*  
-Netflix’s catalog is heavily led by the **United States**, followed by **India** and **the United Kingdom**, showing its broad global reach.
+🧠 *Insight:*  
+Netflix’s content is majorly led by **Movies** from the **U.S.**, followed by **India** and **the U.K.** in both production volume and variety.
 
 ---
 
-### ⚫ Page 2: Netflix Description *(In Progress)*
-Planned to include:
-- **Genre & Category Analysis**
-- **Top Directors and Cast**
+## ⚫ Page 2: Netflix Description *(In Progress)*
+The second page is planned to display deeper insights such as:
+- **Genre and Category Analysis**
+- **Top Directors and Actors**
 - **Average Duration Metrics**
-- **Rating vs Genre Correlation**
+- **Ratings and Genre Correlation**
 
 ---
 
 ## 🔄 Data Transformations
-Performed in **Power Query Editor** before visualization:
-- Removed null and duplicate values  
-  
-- Trimmed unnecessary spaces and unified text casing  
+Performed in **Power Query Editor** to prepare and clean the dataset:
+- Removed null and duplicate rows  
+- Cleaned up inconsistent text casing and spacing  
+
+These transformations ensured accuracy and consistency in the dashboard visuals.
 
 ---
 
@@ -62,3 +66,4 @@ SUMMARIZECOLUMNS(
 
 )
 
+ 
