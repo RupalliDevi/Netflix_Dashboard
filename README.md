@@ -3,9 +3,11 @@ A Power BI dashboard analyzing Netflix content trends, genres, and ratings using
 # 🎬 Netflix Analytics Power BI Dashboard
 
 ## 📖 Overview
-This project presents an interactive **Power BI dashboard** that analyzes Netflix’s global content catalog.  
-Using the *Netflix Movies and TV Shows dataset* from Kaggle, it visualizes insights about **content distribution**, **type mix**, and **country contributions** — styled with a signature Netflix black and red theme.
+This project presents an interactive **Power BI dashboard** analyzing Netflix’s global content catalog.  
+It is built for **learning and practice purposes**, focusing on **data visualization, transformation, and storytelling**.  
 
+The report is created in **Power BI Desktop**, published on **PowerBI.com**, and uses the *Netflix Movies and TV Shows dataset* from Kaggle.  
+It visualizes insights about **content distribution**, **type mix**, and **country contributions** — styled with a signature Netflix black-and-red theme.
 ---
 
 ## 🟥 Page 1: Netflix Overview Dashboard
