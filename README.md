@@ -49,7 +49,6 @@ These transformations ensured accuracy and consistency in the dashboard visuals.
 CountTypes =
 
 SUMMARIZECOLUMNS(
-
     'netflix_titles'[type],
 
     "Total_Count", COUNTROWS('netflix_titles'),
@@ -65,5 +64,7 @@ SUMMARIZECOLUMNS(
         CALCULATE(COUNTROWS('netflix_titles'), 'netflix_titles'[Type] = "TV Show")
 
 )
+
+© 2025 Rupalli Devi. All Rights Reserved.
 
  
